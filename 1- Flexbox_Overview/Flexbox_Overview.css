@@ -1,0 +1,7 @@
+/* The items inside a flex container:
+
+can be organized in any direction (leftwards, rightwards, downwards or even upwards) (flex-direction).
+can have direct (left-to-right) or reversed (right-to-left) order.
+can have “flex” width and height to fill the available space (flex-item).
+can be set to dynamically collapse or expand along the main axis, and in the meantime preserve the size of the secondary cross axis.
+can be organized linearly along the main axis or wrapped into multiple lines along or across the cross axis. */

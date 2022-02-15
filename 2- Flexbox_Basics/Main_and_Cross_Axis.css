@@ -1,0 +1,11 @@
+/* Understand 2 things: 1) In CSS, think in terms of the Main and Cross Axis
+                        2) Be able to differentiate between flex container and flex items */
+
+/* The Main Axis is defined by flex-direction property,which has the following Values */
+/* row and row-reverse run horizontal with Main Axis
+   column and column-reverse run vertical with Main Axis */
+
+.container {
+    display: flex /* or inline-flex  to turn an HTML element into a container*/
+}
+

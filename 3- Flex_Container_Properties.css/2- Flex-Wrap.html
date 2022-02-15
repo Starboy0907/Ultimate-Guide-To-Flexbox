@@ -1,0 +1,36 @@
+/* The Flex Wrap Property
+        ...determines how items overflow the container on a line
+    ...and takes 1 of 3 values nowrap(default=fit the container's width), {wrap-flex} items start a new line when they reach the end of the container*/
+/* ...wrap-reverse: left to-right; bottom to top */
+
+/*The justify content property defines how items are spaced on the horizontal Main axis */
+/*  */
+<title>Title of the Document</title>
+    <style>
+        h3 {
+            color: #8ebf42;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 30px;
+            border: 1px dashed #666;
+        }
+        .flex-container > div {
+            width: 80px;
+            height: 70px;
+            margin: 5px;
+            border-radius: 3px;
+            background-color: #1faadb;
+        }
+    </style>
+</head>
+<body>
+    <h3>row-reverse</h3>
+    <div class="flex-container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>        
+  </body>
+</html>
